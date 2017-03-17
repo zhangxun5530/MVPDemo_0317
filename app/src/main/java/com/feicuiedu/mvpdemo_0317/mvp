@@ -1,0 +1,20 @@
+MVP
+MVC
+Model:数据模型，实际的数据，网络获取的数据、本地读取的数据等
+View：布局、视图相关
+Controller:控制器，Activity、Fragment等，控制视图和业务逻辑
+
+考虑：能不能把视图、业务逻辑分开
+1. 减少Controller的负担，减少代码
+2. 便于维护，利于更新
+3. 耦合性
+
+MVP：
+Model：数据、网络获取得到的数据、本地读取的数据等
+    一般从网络获取数据等都属于业务实现
+View：Activity、Fragment、自定义的视图
+Presenter:业务类，中间人。
+
+
+
+
